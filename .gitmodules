@@ -1,0 +1,3 @@
+[submodule "core/deps"]
+	path = core/deps
+	url = git@github.com:lyntel/tangram-es-deps.git
