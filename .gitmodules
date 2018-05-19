@@ -6,3 +6,6 @@
 	path = bench/benchmark
 	url = https://github.com/google/benchmark
 
+[submodule "platforms/common/glfw"]
+	path = platforms/common/glfw
+	url = https://github.com/glfw/glfw
