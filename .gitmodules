@@ -2,10 +2,9 @@
 	path = core/deps
 	url = git@github.com:lyntel/tangram-es-deps.git
 
-[submodule "external/glfw"]
-	path = platforms/common/glfw
-	url = https://github.com/glfw/glfw
-	
 [submodule "external/benchmark"]
 	path = bench/benchmark
 	url = https://github.com/google/benchmark
+[submodule "platforms/common/glfw"]
+	path = platforms/common/glfw
+	url = https://github.com/glfw/glfw
