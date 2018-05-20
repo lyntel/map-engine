@@ -957,7 +957,11 @@ void setDebugFlag(DebugFlags _flag, bool _on) {
 }
 
 bool getDebugFlag(DebugFlags _flag) {
-
+    //test code
+    if(_flag == DebugFlags::tile_bounds ||
+            _flag == DebugFlags::tile_infos){
+        return true;
+    }
     return g_flags.test(_flag);
 
 }

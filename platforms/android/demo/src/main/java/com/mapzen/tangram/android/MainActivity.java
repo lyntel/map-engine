@@ -112,7 +112,9 @@ public class MainActivity extends AppCompatActivity implements MapController.Sce
         map.loadSceneFile(sceneUrl, sceneUpdates);
 
         map.setZoom(16);
-        map.setPosition(new LngLat(-74.00976419448854, 40.70532700869127));
+//        map.setPosition(new LngLat(-74.00976419448854, 40.70532700869127));
+        //xi'an
+        map.setPosition(new LngLat(108.887324, 34.200358));
         map.setHttpHandler(getHttpHandler());
         map.setTapResponder(this);
         map.setDoubleTapResponder(this);
